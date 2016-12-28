@@ -15,6 +15,12 @@ group :development do
   gem 'listen'
 end
 
+group :test do
+  gem "rspec-rails", "~> 2.14"
+  gem "factory_girl_rails"
+  gem 'ffaker'
+end
+
 # Use SCSS for stylesheets
 gem 'sass-rails'
 
